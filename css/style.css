@@ -15,37 +15,141 @@ SUGESTÃO DE ESTRUTURAÇÃO BASE
 */
 
 /* VARIÁVEIS */
-:root{
-  
-}
+
 
 /*BODY*/
 body{
-
+	font-family: 'Helvetica', 'Arial', sans-serif;
+	color: #262626;
 }
 
 /*TOPO*/
 header{
-	
-}
 
-/*RODAPÉ*/
-footer{
-
+	width: 935px;
+	margin: auto;
+	text-align: left;
+	margin-bottom: 0;;
 }
 
 /*PÁGINA INICIAL*/
 main{
+
+	width: 935px;
+	margin: auto;
 	
 }
 	main .profile-content{
+		display: flex;
+		flex-direction: row;
+		margin-right: 10px;
+		padding-top: 50px;
+
+	}
+	main .profile-content .profile-photo {
+		margin-right: 80px;
+		padding-top: 20px;
+	}
+	main .profile-content .profile-photo figure img {
+		border-radius: 50%;
+		padding: 3px;
+		border: 2px solid rgba(200,200,200,0.7);
+	}
+	main .profile-info p, a {
+		font-size: 13px ;
+		line-height: 120%;
+	}
+	main .profile-info {
+		line-height: 50%;
+	}
+	main .profile-info h1 {
+		font-weight: 300;
+		font-size: 36px;
+	}
+	main .profile-info h2 {
+		font-size: 18px;
+	}
+	main .profile-info ul {
+		list-style: none;
+		padding: 0;
+		line-height: 100%;
+	}
+	main .profile-data span {
+		font-weight: bold;
+	}
+	main .profile-data {
+		display: flex;
+		flex-direction: row;
+	}
+	main .profile-data p {
+		margin-right: 10px;
+	}
+
+	main .highlighted-stories ul {
+		list-style: none;
+		display: flex;
+		flex-direction: row;
+		padding-top: 30px;
+	}
+	main .highlighted-stories ul li figure img {
+		width: 77px;
+		height: 77px;
+		border-radius: 50%;
+		border: 1px solid rgba(200,200,200,0.7);
+		padding: 3px;
+	}
+
+	main .profile-posts nav {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		border-top: 1px solid rgba(200,200,200,0.7);
+	}
+	main .profile-posts nav a {
+		margin-right: 10px;
+		text-decoration: none;
+		text-transform: uppercase;
+		color: #262626;
+	}
+	main .profile-posts nav a:active {
+		font-weight: bold;
+		border-top: 1px solid #262626;
+	}
+	main .profile-posts ul li a figure img {
+		width: 293px;
+		height: 293px;
+	}
+	main .profile-posts ul li a figure {
+		margin: 0;
+		margin-bottom: 20px;
+	
+	}
+	main .profile-posts ul {
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		padding: 0;
+		justify-content: space-between;
+		align-content: space-between;
+		padding-bottom: 50px;
+	}
+	footer {
+		width: 935px;
+		margin: auto;
+		display: flex;
+		padding-top: 100px;
+		flex-direction: row;
+		justify-content: space-between;
+	
+	}
+	footer nav {
+		text-align: left;
+		height: 25px;
+		padding-top: 10px;
+	}
+	footer nav a {
+		color: #262626;
+		padding-left: 5px;
 
 	}
 
-	main .highlighted-stories{
-
-	}
-
-	main .profile-posts{
-
-	}
